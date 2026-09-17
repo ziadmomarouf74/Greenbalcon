@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اسأل بلكونة خضراء</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>بلكونة خضراء </h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="ask.html" class="active">اسأل</a></li>
+                <li><a href="about.html">من نحن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="titlesection">
+                <h1>اسأل مجتمع بلكونة خضراء والخبراء</h1>
+                <p>اطرح سؤالك عن العناية بنباتاتك واحصل على إجابات سريعة من الخبراء ومحبي الزرع</p>
+            </div>
+
+            <div class="askcontainer">
+                <div class="ask">
+                    <h3> اطرح سؤالاً جديداً</h3>
+                    <input type="text" id="titleinput" placeholder="عنوان سؤالك (مثلاً: أوراق البوتس تصفر)" class="askinput">
+                    <textarea id="detailsinput" placeholder="اكتب تفاصيل سؤالك هنا... (اذكر نوع النبتة، ومكانها، وكم مرة تسقيها)" class="asktextarea"></textarea>
+
+                    <div class="form">
+                        <div class="uploadbox" id="boxbtn" style="width: 100%;">
+                            <span>إرفاق صورة للنبتة (اختياري)</span>
+                        </div>
+                        <input type="file" id="fileinput" style="display: none;" accept="image/*"> 
+                    </div>
+                    <button class="submitbtn" id="submitquestionbtn">انشر سؤالك</button>
+                </div>
+
+                <div class="questionslist" id="questionscontainer">
+
+                    <div class="questioncard">
+                        <div class="questionheader">
+                            <h4 class="qtitle">عندي نبتة البوتس بقالها أسبوع أوراقها بتصفر وتذبل، إيه السبب؟</h4>
+                            <div class="userinfo">
+                                <strong>أحمد علي</strong>
+                            </div>
+                        </div>
+                        <div class="expertanswer">
+                            <strong>إجابة من خبير :</strong> قد يكون ذلك بسبب الإفراط في الري. تأكد من جفاف التربة تماماً قبل الري القادم ووفر لها إضاءة غير مباشرة
+                        </div>
+                    </div>
+
+                    <div class="questioncard">
+                        <div class="questionheader">
+                            <h4 class="qtitle">هل الصبار يحتاج شمس مباشرة طول اليوم؟</h4>
+                            <div class="userinfo">
+                                <strong>سارة محمد</strong>
+                            </div>
+                        </div>
+                        <div class="expertanswer">
+                            <strong>إجابة من خبير :</strong> نعم، يحتاج الصبار إلى إضاءة قوية وشمس مباشرة لعدة ساعات يومياً، لكن تجنب شمس الظهر الحارقة جداً
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footercontent">
+            <div class="footerlinks">
+                <a href="">الدعم</a>
+            </div>
+            <div class="footerlogo">
+                <h2>بلكونة خضراء</h2>
+                <p>صُنع بكل حب لعشاق الطبيعة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

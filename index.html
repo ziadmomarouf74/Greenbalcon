@@ -1,0 +1,465 @@
+d<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بلكونة خضراء</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>بلكونة خضراء </h2>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="ابحث عن نبتة">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="ask.html">اسأل</a></li>
+                <li><a href="about.html">من نحن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="filter">
+            <h3>تصفية النباتات</h3>
+            <ul id="list">
+                <li filter="all" class="item">الكل (20)</li>
+                <li filter="indoor" class="item">نباتات داخلية <span class="indoor"></span></li>
+                <li filter="outdoor" class="item">نباتات خارجية <span class="outdoor"></span></li>
+                <li filter="aromatic" class="item">نباتات عطرية <span class="aromatic"></span></li>
+                <li filter="succulent" class="item">عصاريات <span class="succulent"></span></li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <div class="titlesection">
+                <h1>اكتشف نباتاتك المنزلية </h1>
+                <p>تصفح 20 من أشهر النباتات وتعرف على أسرار العناية بها</p>
+            </div>
+
+            <div class="cards" id="plants">
+
+                <div class="card" datacategory="aromatic">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/egyption basil.jpeg" class="cardimg" alt="الريحان البلدي">
+                            <div class="cardinfo">
+                                <h3>الريحان البلدي</h3>
+                                <p>نباتات عطرية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الريحان البلدي</h3>
+                            <p><span>الظروف:</span> جو دافئ وتهوية جيدة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 4-6 ساعات</p>
+                            <p><span>الري:</span> كل 2-3 أيام</p>
+                            <p><span>التربة:</span> غنية وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> قص الأطراف باستمرار لنمو كثيف</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="aromatic">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Mint.jpeg" class="cardimg" alt="النعناع">
+                            <div class="cardinfo">
+                                <h3>النعناع</h3>
+                                <p>نباتات عطرية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>النعناع</h3>
+                            <p><span>الظروف:</span> دافئة ورطبة نسبياً</p>
+                            <p><span>الإضاءة:</span> ضوء قوي ويفضل شمس الصباح</p>
+                            <p><span>الري:</span> كل 2-3 أيام</p>
+                            <p><span>التربة:</span> غنية وتحتفظ بالرطوبة</p>
+                            <p><span>نصيحة:</span> لا تترك التربة تجف تماماً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="aromatic">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Rosemary.jpeg" class="cardimg" alt="إكليل الجبل">
+                            <div class="cardinfo">
+                                <h3>إكليل الجبل</h3>
+                                <p>نباتات عطرية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>إكليل الجبل</h3>
+                            <p><span>الظروف:</span> دافئة وجافة وتهوية جيدة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 5-8 ساعات</p>
+                            <p><span>الري:</span> كل 5-7 أيام</p>
+                            <p><span>التربة:</span> خفيفة ورملية</p>
+                            <p><span>نصيحة:</span> تجنب الري الزائد لتفادي العفن</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="aromatic">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Thyme.jpeg" class="cardimg" alt="الزعتر">
+                            <div class="cardinfo">
+                                <h3>الزعتر</h3>
+                                <p>نباتات عطرية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الزعتر</h3>
+                            <p><span>الظروف:</span> دافئة وجافة نسبياً</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 5-8 ساعات</p>
+                            <p><span>الري:</span> كل 5-7 أيام</p>
+                            <p><span>التربة:</span> خفيفة ورملية</p>
+                            <p><span>نصيحة:</span> اترك التربة تجف بين الري</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="succulent">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Alo vera.jpeg" class="cardimg" alt="صبار الألوفيرا">
+                            <div class="cardinfo">
+                                <h3>صبار الألوفيرا</h3>
+                                <p>عصاريات</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>صبار الألوفيرا</h3>
+                            <p><span>الظروف:</span> دافئة وجافة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي وشمس مباشرة</p>
+                            <p><span>الري:</span> كل 10-20 يوماً</p>
+                            <p><span>التربة:</span> مخصصة للصبارات</p>
+                            <p><span>نصيحة:</span> اسقه فقط بعد جفاف التربة تماماً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Snake plant.jpeg" class="cardimg" alt="جلد النمر">
+                            <div class="cardinfo">
+                                <h3>جلد النمر</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>جلد النمر</h3>
+                            <p><span>الظروف:</span> يتحمل معظم ظروف المنزل</p>
+                            <p><span>الإضاءة:</span> منخفضة إلى ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 2-4 أسابيع</p>
+                            <p><span>التربة:</span> خفيفة وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> السبب الأول لموته هو الري الزائد</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/zz planet.jpeg" class="cardimg" alt="الزاميا">
+                            <div class="cardinfo">
+                                <h3>الزاميا</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الزاميا</h3>
+                            <p><span>الظروف:</span> دافئة وتتحمل الجفاف</p>
+                            <p><span>الإضاءة:</span> منخفضة إلى قوية غير مباشرة</p>
+                            <p><span>الري:</span> كل 2-4 أسابيع</p>
+                            <p><span>التربة:</span> جيدة التصريف</p>
+                            <p><span>نصيحة:</span> مناسبة للمبتدئين بدون عناية مكثفة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Pothes.jpeg" class="cardimg" alt="البوتس">
+                            <div class="cardinfo">
+                                <h3>البوتس</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>البوتس</h3>
+                            <p><span>الظروف:</span> دافئة ورطوبة متوسطة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 7-14 يوماً</p>
+                            <p><span>التربة:</span> خفيفة وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> اترك سطح التربة يجف قبل الري</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Spider plant.jpeg" class="cardimg" alt="نبات العنكبوت">
+                            <div class="cardinfo">
+                                <h3>نبات العنكبوت</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>العنكبوت</h3>
+                            <p><span>الظروف:</span> دافئة ورطوبة متوسطة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 7-14 يوماً</p>
+                            <p><span>التربة:</span> جيدة التصريف</p>
+                            <p><span>نصيحة:</span> مناسب جداً للأصص المعلقة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Peace lily.jpeg" class="cardimg" alt="زنبق السلام">
+                            <div class="cardinfo">
+                                <h3>زنبق السلام</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>زنبق السلام</h3>
+                            <p><span>الظروف:</span> دافئة ورطبة نسبياً</p>
+                            <p><span>الإضاءة:</span> ضوء غير مباشر</p>
+                            <p><span>الري:</span> كل 5-10 أيام</p>
+                            <p><span>التربة:</span> غنية وخفيفة</p>
+                            <p><span>نصيحة:</span> يحب الرطوبة ولا يحب تجمع المياه</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="aromatic">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Lavander.jpeg" class="cardimg" alt="اللافندر">
+                            <div class="cardinfo">
+                                <h3>اللافندر</h3>
+                                <p>نباتات عطرية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>اللافندر</h3>
+                            <p><span>الظروف:</span> جافة ودافئة وتهوية جيدة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 6 ساعات</p>
+                            <p><span>الري:</span> كل 5-7 أيام</p>
+                            <p><span>التربة:</span> رملية جيدة التصريف</p>
+                            <p><span>نصيحة:</span> لا يحب التربة المبللة باستمرار</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Ficus.jpeg" class="cardimg" alt="الفيكس">
+                            <div class="cardinfo">
+                                <h3>الفيكس</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الفيكس</h3>
+                            <p><span>الظروف:</span> دافئة ومستقرة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 7-10 أيام</p>
+                            <p><span>التربة:</span> غنية وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> لا تغير مكانه كثيراً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="outdoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Arabian jasmin.jpeg" class="cardimg" alt="الياسمين البلدي">
+                            <div class="cardinfo">
+                                <h3>الياسمين البلدي</h3>
+                                <p>نباتات خارجية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الياسمين البلدي</h3>
+                            <p><span>الظروف:</span> دافئة ومشمسة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 4-6 ساعات</p>
+                            <p><span>الري:</span> كل 3-5 أيام</p>
+                            <p><span>التربة:</span> غنية وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> التقليم يساعد على زيادة التزهير</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="outdoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Geranium.jpeg" class="cardimg" alt="الجرانيوم">
+                            <div class="cardinfo">
+                                <h3>الجرانيوم</h3>
+                                <p>نباتات خارجية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الجرانيوم</h3>
+                            <p><span>الظروف:</span> دافئة ومشمسة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 4-6 ساعات</p>
+                            <p><span>الري:</span> كل 3-5 أيام</p>
+                            <p><span>التربة:</span> خفيفة وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> أزل الزهور الذابلة لنمو جديد</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Fern.jpeg" class="cardimg" alt="السرخس">
+                            <div class="cardinfo">
+                                <h3>السرخس</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>السرخس</h3>
+                            <p><span>الظروف:</span> رطوبة عالية وحرارة معتدلة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 3-5 أيام</p>
+                            <p><span>التربة:</span> تحتفظ بالرطوبة</p>
+                            <p><span>نصيحة:</span> لا تترك التربة تجف تماماً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="succulent">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Jade plant.jpeg" class="cardimg" alt="الكراسولا">
+                            <div class="cardinfo">
+                                <h3>الكراسولا</h3>
+                                <p>عصاريات</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الكراسولا</h3>
+                            <p><span>الظروف:</span> دافئة وجافة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي وشمس صباحية</p>
+                            <p><span>الري:</span> كل 10-20 يوماً</p>
+                            <p><span>التربة:</span> رملية جيدة التصريف</p>
+                            <p><span>نصيحة:</span> تجنب كثرة الري لأنها تخزن المياه</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Clacthea.jpeg" class="cardimg" alt="الكالاتيا">
+                            <div class="cardinfo">
+                                <h3>الكالاتيا</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الكالاتيا</h3>
+                            <p><span>الظروف:</span> دافئة ورطبة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 5-7 أيام</p>
+                            <p><span>التربة:</span> خفيفة تحتفظ بالرطوبة</p>
+                            <p><span>نصيحة:</span> ابعدها عن الشمس المباشرة والهواء الجاف</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="outdoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Lvy.jpeg" class="cardimg" alt="اللبلاب">
+                            <div class="cardinfo">
+                                <h3>اللبلاب</h3>
+                                <p>نباتات خارجية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>اللبلاب</h3>
+                            <p><span>الظروف:</span> معتدلة إلى دافئة</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 7-10 أيام</p>
+                            <p><span>التربة:</span> خفيفة وجيدة التصريف</p>
+                            <p><span>نصيحة:</span> قص الأطراف للحفاظ على الكثافة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="outdoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Bougainvillea.jpeg" class="cardimg" alt="الجهنمية">
+                            <div class="cardinfo">
+                                <h3>الجهنمية</h3>
+                                <p>نباتات خارجية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الجهنمية</h3>
+                            <p><span>الظروف:</span> دافئة وجافة ومشمسة</p>
+                            <p><span>الإضاءة:</span> شمس مباشرة 6-8 ساعات</p>
+                            <p><span>الري:</span> كل 3-5 أيام</p>
+                            <p><span>التربة:</span> رملية وخفيفة</p>
+                            <p><span>نصيحة:</span> الشمس القوية مهمة للحصول على أزهار</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" datacategory="indoor">
+                    <div class="cardinner">
+                        <div class="cardfront">
+                            <img src="plant/Orchid.jpeg" class="cardimg" alt="الأوركيد">
+                            <div class="cardinfo">
+                                <h3>الأوركيد</h3>
+                                <p>نباتات داخلية</p>
+                            </div>
+                        </div>
+                        <div class="cardback">
+                            <h3>الأوركيد</h3>
+                            <p><span>الظروف:</span> دافئة ورطبة وجيدة التهوية</p>
+                            <p><span>الإضاءة:</span> ضوء قوي غير مباشر</p>
+                            <p><span>الري:</span> كل 7 أيام</p>
+                            <p><span>التربة:</span> خليط مخصص مثل لحاء الأشجار</p>
+                            <p><span>نصيحة:</span> لا تترك الجذور في المياه</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footercontent">
+            <div class="footerlinks">
+                <a href="">الدعم</a>
+            </div>
+            <div class="footerlogo">
+                <h2>بلكونة خضراء</h2>
+                <p>صُنع بكل حب لعشاق الطبيعة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
